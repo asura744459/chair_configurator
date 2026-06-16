@@ -1,0 +1,50 @@
+.mainWrapper {
+  width: 408px;
+  height: 672px;
+  padding: 24px;
+  background-color: transparent;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+.radio-section {
+  display: flex;
+  gap: 30px;
+}
+
+.radio-btn {
+  color: gray;
+}
+
+.radio-btn:hover {
+  cursor: pointer;
+}
+
+.radio-btn-active {
+  color: white;
+}
+
+.select-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 400px;
+  gap: 32px;
+  padding: 16px;
+}
+
+.title {
+  padding: 16px;
+}
+
+.radio-section {
+  padding-left: 16px;
+}

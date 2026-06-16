@@ -1,0 +1,35 @@
+.select-option {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  border-style: solid;
+}
+
+
+.select-option:hover {
+  width: 40px;
+  height: 40px;
+  border: 6px double;
+  border-color: white;
+  transition-duration: 0.3s;
+}
+
+.select-btn:hover {
+  cursor: pointer;
+}
+
+.lettercolor-option {
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+  color: #aaa;
+  text-transform: capitalize;
+  line-height: 24px;
+}
+
+.select-btn {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
